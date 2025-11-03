@@ -1,34 +1,60 @@
-# AI Website Builder — MVP (Generated)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ashvyagni/promptpress/main/assets/banner.png" alt="PromptPress Banner" width="100%" />
+  
+  # ⚡ PromptPress  
+  **Type a prompt → Get a website.**  
+  AI-powered website builder that transforms text descriptions into fully responsive, production-ready web pages.
+</div>
 
-This is a minimal MVP scaffold for an **AI-powered website builder**.
-It includes:
-- `backend/` — Express server with a `/generate` endpoint that calls the OpenAI API to generate HTML from a prompt.
-- `frontend/` — Vite + React app where you enter prompts and preview the generated site.
+---
 
-## Quick start (you'll need Node.js >=18 and an OpenAI API key)
+## 🎥 Demo
 
-1. Backend
-   ```bash
-   cd backend
-   npm install
-   # create a .env file with OPENAI_API_KEY=your_api_key
-   node index.js
-   ```
+https://github.com/YOUR-USERNAME/promptpress/assets/demo.gif  
+*(Add your demo video or GIF here — record your screen with QuickTime or Peek!)*
 
-2. Frontend
-   ```bash
-   cd frontend
-   npm install
-   npm run dev
-   ```
+---
 
-3. Use the web UI (http://localhost:5173 by default) to send prompts.
+## 🚀 Features
 
-## What this MVP does
-- Sends your prompt to the backend.
-- Backend calls OpenAI to generate a single HTML string (a complete page).
-- Frontend shows the generated site in a live preview iframe and allows downloading the HTML.
+✅ Generate complete, styled websites from natural language prompts  
+✅ Live preview with instant updates  
+✅ Download generated HTML directly  
+✅ Built with React, Express, and OpenAI API  
+✅ Easy to deploy on Vercel or your own server  
 
-## Notes & next steps
-- This is a scaffold: expand the agent logic to produce multi-file projects, CSS, components, and deployment automation.
-- For production, sandbox generated code before rendering; do not render untrusted HTML on public sites.
+---
+
+## 🧠 How It Works
+
+1. The **frontend** (React + Vite) collects your prompt  
+2. The **backend** (Node + Express) sends it to the OpenAI API  
+3. The AI generates clean HTML, CSS, and JS  
+4. You see a live preview instantly — and can download the output  
+
+---
+
+## ⚙️ Getting Started
+### Backend
+```bash
+cd backend
+npm install
+cp .env.example .env  # add your OpenAI API key here
+node index.js
+
+cd frontend
+npm install
+npm run dev
+
+
+
+--------
+---
+
+### Quick notes / troubleshooting
+- In Markdown: always open and close fenced code blocks with **three backticks** ````` not three single quotes.
+- If your terminal is stuck because you accidentally started a multiline quote or backtick, press **Ctrl+C** to cancel and get back to the prompt.
+- If you paste the above into your README and GitHub preview still looks off, check for stray backticks elsewhere in the file.
+
+Want me to update the README in your repo directly (I can generate the full polished README with these corrected blocks)?
+

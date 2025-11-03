@@ -41,19 +41,17 @@ cd backend
 npm install
 cp .env.example .env  # add your OpenAI API key here
 node index.js
+``` 
 
+### Frontend
+```bash
 cd frontend
 npm install
 npm run dev
+```
+Visit http://localhost:5173
 
 
-
---------
----
-
-### Quick notes / troubleshooting
-- In Markdown: always open and close fenced code blocks with **three backticks** ````` not three single quotes.
-- If your terminal is stuck because you accidentally started a multiline quote or backtick, press **Ctrl+C** to cancel and get back to the prompt.
 - If you paste the above into your README and GitHub preview still looks off, check for stray backticks elsewhere in the file.
 
 Want me to update the README in your repo directly (I can generate the full polished README with these corrected blocks)?

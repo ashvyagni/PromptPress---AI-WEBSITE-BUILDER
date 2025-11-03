@@ -1,0 +1,3 @@
+html,body,#root{height:100%;margin:0}
+textarea,input,button{font:inherit;padding:8px}
+button{cursor:pointer}
